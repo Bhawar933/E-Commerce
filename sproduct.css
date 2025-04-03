@@ -1,0 +1,126 @@
+#header{
+    /* height: 4070px; */
+    max-width: 1355px;
+}
+nav{
+    position: fixed;
+    z-index:10;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    width: 1350px;
+    /* border: 2px solid black; */
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.06);
+    background-color: #E3E6F3;
+}
+#logo{
+    height: 70px;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+ul{
+    margin-left: 800px;
+    margin-top: -55px;
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    margin-left: 30px;
+    
+}
+a:hover,a.active{
+    color: #088178;
+}
+
+.single-pro-image{
+    margin-top: 130px;
+    margin-left: 80px;
+}
+#box{
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    margin-left: 620px;
+    margin-top: -670px;
+    border: 0;
+}
+#seventh-section1{
+    height: 170px;
+    width: 1351px;
+    /* border: 1px solid black; */
+    background-image: url(/image/images.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+    margin-left: -8px;
+}
+
+.newstext1 h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: -30px;
+}
+.newstext1 p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.newstext1 p span{
+    color: #ffbd27;
+}
+.newstext1 .form{
+    display: flex;
+    margin-top: -50px;
+    
+    /* width: 40%; */
+}
+.newstext1 input{
+    height: 2.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    float: left;
+    margin-left: -30px;
+}
+#seventh-section1 button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    height: 2.125rem;
+    padding: 0 1.25em;
+    width: 80px;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+.normal1{
+
+}
+
+#eight-section1{
+    height: 350px;
+    width: 1342px;
+    background-color: #fff;
+}
